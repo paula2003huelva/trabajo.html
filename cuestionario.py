@@ -109,14 +109,6 @@ if respuesta == 'A':
 if respuesta == 'B':
     print('Respuesta incorrecta')
 
-contador=0
-pregunta=input('De 5 has fallado un :')
-print(contador)
-if pregunta == 'paula':
-    contador+=5
-    print(contador)
-
-
 
 
 

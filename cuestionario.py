@@ -1,122 +1,113 @@
 #Cuestionario
 # 1º pregunta
-print('¿Quién ganó supervivientes en 2018?')
+print('¿Que superpoder tendrías?')
 
-print('1.Abraham García')
+print('A. Leer la mente')
 
-print('2.Sofía Suescun')
+print('B. Ser invisible')
 
-print('3.Logan Sampedro')
+print('C. Volar')
 
-print('4.Christopher Mateo')
+respuesta =input('la respuesta es:')
 
-respuesta =input('la respuesta es(escoge un número):')
-
-if respuesta == '2':
+if respuesta == 'A':
     print('Respuesta correcta')
 
-else:
+if respuesta == 'B':
+    print('Respuesta incorrecta')
+if respuesta == 'C':
     print('Respuesta incorrecta')
 #2ºpregunta
 
-print('¿Cuál es tu serie favorita?')
+print('Si sólo pudieras tener un hobby, ¿cuál sería?')
 
-print('1.Divergente')
+print('A. Leer')
 
-print('2.Harry Potther')
+print('B. Ir al cine')
 
-print('3.Élite')
+print('C. Cocinar')
 
-print('4.Crepúsculo')
+print('D. Viajar')
 
-print('4.Todas son correctas')
+respuesta =input('la respuesta es:')
 
-respuesta =input('la respuesta es(escoge un número):')
-
-if respuesta == '4':
+if respuesta == 'D':
     print('Respuesta correcta')
 
-else:
-    print('Respuesta correcta')
+if respuesta == 'C':
+    print('Respuesta incorrecta')
+if respuesta == 'B':
+    print('Respuesta incorrecta')
+if respuesta == 'A':
+    print('Respuesta incorrecta')
 
 #3ºpregunta
 
-print('¿Cuál es tu asignatura preferida?')
+print('¿podrías vivirsin el móvil?')
 
-print('1.Lengua')
+print('A. Si')
 
-print('2.Historia')
+print('B. No')
 
-print('3.Matemáticas')
 
-print('4.Francés')
+respuesta =input('la respuesta es:')
+
+if respuesta == 'B':
+    print('Respuesta correcta')
+
+if respuesta == 'A':
+    print('Respuesta incorrecta')
+
+#4ºpregunta
+
+print(' Si pudieras ir a cenar con un famoso, ¿con quién irías?')
+
+print('A. Sergio Ramos')
+
+print('B. Chris Hemsworth')
+
+print('C. Madonna')
 
 respuesta =input('la respuesta es(escoge un número):')
 
-if respuesta == '2':
+if respuesta == 'B':
     print('Respuesta correcta')
-
-else:
+if respuesta == 'A':
+    print('Respuesta incorrecta')
+if respuesta == 'C':
     print('Respuesta incorrecta')
 
 #5ºpregunta
 
-print('¿Cuántos años tienes?')
+print('¿Teconsideras una persona supersticiosa?')
 
-print('1.16')
+print('A. Si')
 
-print('2.15')
+print('B. No')
 
-print('3.17')
-
-respuesta =input('la respuesta es(escoge un número):')
-
-if respuesta == '2':
-    print('Respuesta correcta')
-
-else:
-    print('Respuesta incorrecta')
-
-#5ºpregunta
-
-print('¿Dónde te gustaría viajar?')
-
-print('1.París')
-
-print('2.África')
-
-print('3.Por toda América')
-
-print('4.Australia')
 
 respuesta =input('la respuesta es(escoge un número):')
 
-if respuesta == '3':
+if respuesta == 'A':
     print('Respuesta correcta')
 
-else:
+if respuesta == 'B':
     print('Respuesta incorrecta')
 
 #6ºpregunta
 
-print('¿Qué música escuchas?')
+print(' ¿Preferirías viajar al futuro o al pasado?')
 
-print('1.Reggaeton')
+print('A.Futuro')
 
-print('2.Trap')
-
-print('3.Pop')
-
-print('4.Hip Hop')
+print('B.Pasado')
 
 respuesta =input('la respuesta es(escoge un número):')
 
-if respuesta == '1,2':
+if respuesta == 'A':
     print('Respuesta correcta')
-
-else:
+if respuesta == 'B':
     print('Respuesta incorrecta')
-
 
 contador=0
 pregunta=input('De 5 has fallado un :')
